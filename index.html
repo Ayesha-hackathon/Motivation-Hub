@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <h1>💡 Motivation Hub</h1>
+        <button onclick="toggleTheme()" class="toggle">🌙</button>
+    </div>
+
+    <div class="quote-box glass">
+        <p id="quote">Loading inspiration...</p>
+        <h3 id="author"></h3>
+    </div>
+
+    <div class="buttons">
+        <button onclick="generateQuote()">✨ New Quote</button>
+        <button onclick="shareWhatsApp()">📤 Share</button>
+        <button onclick="saveFavorite()">❤️ Save</button>
+    </div>
+
+    <h2>⭐ Favorites</h2>
+    <ul id="favorites"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
